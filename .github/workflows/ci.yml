@@ -1,4 +1,4 @@
-name: CI
+BBCname: CI
 
 on:
   push:
@@ -18,7 +18,7 @@ jobs:
 
       - name: Setup Go
         uses: actions/setup-go@v5
-        with:
+        with: 
           go-version-file: ./go.mod
 
       - name: Get dependencies
